@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\数据">
+      <UniqueIdentifier>{aefd6487-8f73-4c6a-a164-18661649c446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据">
+      <UniqueIdentifier>{24c3d5e3-c1f2-453b-af94-5d28598e079d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\核心4步">
+      <UniqueIdentifier>{2049c95d-fe73-4caf-8d17-93abcbd003bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\核心4步">
+      <UniqueIdentifier>{4458c469-f10f-48fe-9d0f-69a175ab70e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\核心4步\碰撞避免">
+      <UniqueIdentifier>{ac302e83-754d-4e22-84f0-a1ea241911ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\核心4步\路径规划">
+      <UniqueIdentifier>{f5ad96a3-f727-4e2f-b8ec-343b8c3e20e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\核心4步\路径规划">
+      <UniqueIdentifier>{33ad1e45-8679-45e3-857c-326590410151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\核心4步\碰撞避免">
+      <UniqueIdentifier>{40d6933c-8611-41a5-b0a5-935d536a00be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visible.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Neighbor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorChoice.h">
+      <Filter>头文件\核心4步</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>头文件\核心4步</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>头文件\核心4步\路径规划</Filter>
+    </ClInclude>
+    <ClInclude Include="Collide_RVO.h">
+      <Filter>头文件\核心4步\碰撞避免</Filter>
+    </ClInclude>
+    <ClInclude Include="Collide_SocialForce.h">
+      <Filter>头文件\核心4步\碰撞避免</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionAvoidance.h">
+      <Filter>头文件\核心4步\碰撞避免</Filter>
+    </ClInclude>
+    <ClInclude Include="Route_Potential.h">
+      <Filter>头文件\核心4步\路径规划</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Visible.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Neighbor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>源文件\核心4步</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorChoice.cpp">
+      <Filter>源文件\核心4步</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>源文件\数据</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>源文件\数据</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>源文件\数据</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>源文件\数据</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Collide_SocialForce.cpp">
+      <Filter>源文件\核心4步\碰撞避免</Filter>
+    </ClCompile>
+    <ClCompile Include="Collide_RVO.cpp">
+      <Filter>源文件\核心4步\碰撞避免</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionAvoidance.cpp">
+      <Filter>源文件\核心4步\碰撞避免</Filter>
+    </ClCompile>
+    <ClCompile Include="Route.cpp">
+      <Filter>源文件\核心4步\路径规划</Filter>
+    </ClCompile>
+    <ClCompile Include="Route_Potential.cpp">
+      <Filter>源文件\核心4步\路径规划</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
